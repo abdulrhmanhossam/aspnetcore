@@ -1,6 +1,7 @@
 {
   "sdk": {
-    "version": "11.0.100-alpha.1.26064.118",
+ update-dotnet-sdk-10.0.100-preview.4.25216.37
+    "version": "10.0.100-preview.4.25216.37",
     "paths": [
       ".dotnet",
       "$host$"
@@ -8,7 +9,7 @@
     "errorMessage": "The .NET SDK could not be found, run ./restore.cmd or ./restore.sh first."
   },
   "tools": {
-    "dotnet": "11.0.100-alpha.1.26064.118",
+    "dotnet": "10.0.100-preview.4.25216.37",
     "runtimes": {
       "dotnet/x86": [
         "$(MicrosoftInternalRuntimeAspNetCoreTransportVersion)"
