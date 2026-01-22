@@ -1,5 +1,6 @@
 {
   "sdk": {
+ update-dotnet-sdk-10.0.100-preview.4.25216.37
     "version": "10.0.100-preview.4.25216.37",
     "paths": [
       ".dotnet",
@@ -16,26 +17,17 @@
       "dotnet": [
         "$(MicrosoftInternalRuntimeAspNetCoreTransportVersion)"
       ]
-    },
-    "vs": {
-      "version": "17.13",
-      "components": [
-        "Microsoft.VisualStudio.Component.VC.ATL",
-        "Microsoft.VisualStudio.Component.VC.ATL.ARM64",
-        "Microsoft.VisualStudio.Component.VC.Tools.ARM64",
-        "Microsoft.VisualStudio.Component.VC.Tools.x86.x64"
-      ]
-    },
-    "xcopy-msbuild": "17.13.0"
+    }
   },
   "native-tools": {
     "jdk": "latest"
   },
   "msbuild-sdks": {
-    "Microsoft.DotNet.Arcade.Sdk": "10.0.0-beta.25420.121",
-    "Microsoft.DotNet.Helix.Sdk": "10.0.0-beta.25420.121",
-    "Microsoft.DotNet.SharedFramework.Sdk": "10.0.0-beta.25420.121",
+    "Microsoft.DotNet.Arcade.Sdk": "11.0.0-beta.26070.110",
+    "Microsoft.DotNet.Helix.Sdk": "11.0.0-beta.26070.110",
+    "Microsoft.DotNet.SharedFramework.Sdk": "11.0.0-beta.26070.110",
     "Microsoft.Build.NoTargets": "3.7.0",
-    "Microsoft.Build.Traversal": "3.4.0"
+    "Microsoft.Build.Traversal": "3.4.0",
+    "Microsoft.WixToolset.Sdk": "5.0.2-dotnet.2811440"
   }
 }
